@@ -7,7 +7,7 @@ if [ "$OSBSD" == "FreeBSD" ] && [ "$FVER" = "10" ]
 then
     if [ -f /usr/local/bin/python3.4 ] && [ -f /usr/local/bin/python2.7 ]
     then
-        echo "Python2.7 and Python3.4 already installed"
+        echo "Python2.7 and Python3.4 already installed."
         exit 0
     else
         /usr/sbin/pkg install -y bash vim bash-completion
@@ -38,7 +38,7 @@ if [ -f /etc/issue ] && [ -f /etc/redhat-release ]
 then
     if [ -f /usr/local/bin/python3.4 ] && [ -f /usr/local/bin/python2.7 ]
     then
-        echo "Python2.7 and Python3.4 already installed"
+        echo "Python2.7 and Python3.4 already installed."
         exit 0
     else
         yum -y groupinstall "Development tools"
