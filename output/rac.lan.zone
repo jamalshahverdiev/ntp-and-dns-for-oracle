@@ -1,0 +1,24 @@
+$TTL 172800     ; 2 days
+rac.lan.  IN   SOA     ns1.rac.lan. root.rac.lan. (
+                                2016072801      ; Serial
+                                86400           ; Refresh
+                                7200            ; Retry
+                                604800          ; Expire
+                                172800          ; Minimum TTL
+                        )
+
+; DNS Servers
+                IN      NS      ns1.rac.lan.
+
+                IN      A       127.0.0.1
+ns1             IN      A       172.16.100.233
+rac-scan    	IN      A       192.168.56.14
+                IN      A       192.168.56.15
+                IN      A       192.168.56.16
+vmrac1          IN      A       192.168.56.10
+vmrac2          IN      A       192.168.56.11
+vmrac1-vip      IN      A       192.168.56.12
+vmrac2-vip      IN      A       192.168.56.13
+
+; Aliases      
+www             IN      CNAME   @
