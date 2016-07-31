@@ -4,15 +4,15 @@
 
 The <b>jinja2temps/iplist</b> file contains IP configuration for DNS and NTP servers. If you intend to use different IPs please edit the file content to correspond to your environment. Please adhere the following rules while changing the configuration: each IP address must follow the sting starting from <b>#</b>.
 <center>iplist file template:<br>
-# racnode1_host<br>
+    # racnode1_host<br>
 <b>192.168.56.10</b><br>
-# racnode2_host<br>
+    # racnode2_host<br>
 <b>192.168.56.11</b><br>
-# racnode1_VIP1<br>
+    # racnode1_VIP1<br>
 <b>192.168.56.12</b><br>
-# racnode2_VIP2<br>
+    # racnode2_VIP2<br>
 <b>192.168.56.13</b><br>
-# RAC_SCAN<br>
+    # RAC_SCAN<br>
 <b>192.168.56.14<br>
 192.168.56.15<br>
 192.168.56.16</b></center>
