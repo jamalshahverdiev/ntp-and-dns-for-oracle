@@ -2,7 +2,7 @@
 
 <b>oracle-ntp-dns.py</b> - Detects OS type, download and configures DNS and NTP servers.
 
-The <b>jinja2temps/iplist/<b> file contains IP configuration for DNS and NTP servers. If you intend to use different IPs please edit the file content to correspond to your environment. Please adhere the following rules while changing the configuration: each IP address must follow the sting starting from <b>#</b>.
+The <b>jinja2temps/iplist</b> file contains IP configuration for DNS and NTP servers. If you intend to use different IPs please edit the file content to correspond to your environment. Please adhere the following rules while changing the configuration: each IP address must follow the sting starting from <b>#</b>.
 <center>iplist file template:
 # racnode1_host
 <b>192.168.56.10</b>
